@@ -43,11 +43,27 @@ namespace TipCalc
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UISlider ServiceSlider { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField TaxAmountText { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel TaxLabel { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField TaxPercentageText { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UISwitch TaxSwitch { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField TipAmountText { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -56,6 +72,10 @@ namespace TipCalc
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel TipLabel { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField TipPercentageText { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -102,14 +122,34 @@ namespace TipCalc
                 ServiceLabel = null;
             }
 
+            if (ServiceSlider != null) {
+                ServiceSlider.Dispose ();
+                ServiceSlider = null;
+            }
+
+            if (TaxAmountText != null) {
+                TaxAmountText.Dispose ();
+                TaxAmountText = null;
+            }
+
             if (TaxLabel != null) {
                 TaxLabel.Dispose ();
                 TaxLabel = null;
             }
 
+            if (TaxPercentageText != null) {
+                TaxPercentageText.Dispose ();
+                TaxPercentageText = null;
+            }
+
             if (TaxSwitch != null) {
                 TaxSwitch.Dispose ();
                 TaxSwitch = null;
+            }
+
+            if (TipAmountText != null) {
+                TipAmountText.Dispose ();
+                TipAmountText = null;
             }
 
             if (TipCalcLabel != null) {
@@ -120,6 +160,11 @@ namespace TipCalc
             if (TipLabel != null) {
                 TipLabel.Dispose ();
                 TipLabel = null;
+            }
+
+            if (TipPercentageText != null) {
+                TipPercentageText.Dispose ();
+                TipPercentageText = null;
             }
 
             if (TotalLabel != null) {
