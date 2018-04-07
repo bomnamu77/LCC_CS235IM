@@ -64,6 +64,10 @@ namespace TipCalc
                 {
                     if (b.ButtonIndex == 1)
                         TaxSwitch.On = !TaxSwitch.On;
+                    if (!TaxSwitch.On)
+                        TaxPercentageText.Enabled = false;
+                    else
+                        TaxPercentageText.Enabled = true;
                     CheckChanges();
                 };
                 actionSheet.ShowInView(View);
@@ -83,20 +87,25 @@ namespace TipCalc
         public void CheckChanges()
         {
 
-            tipCalc.Amount = Convert.ToDouble(AmountText.Text);
-            if (TaxSwitch.On)
-                tipCalc.Tax = Convert.ToDouble(TaxPercentageText.Text);
+            if (AmountText.Text == "")
+                tipCalc.Amount = 0.0;
+            else
+                tipCalc.Amount = Math.Round(Convert.ToDouble(AmountText.Text),2);
+            if (TaxSwitch.On && TaxPercentageText.Text != "")
+                tipCalc.Tax = Math.Round(Convert.ToDouble(TaxPercentageText.Text),2);
             else
                 tipCalc.Tax = 0.0;
             
-            tipCalc.Tip = Convert.ToDouble(ServiceSlider.Value);
+            tipCalc.Tip = Math.Round(Convert.ToDouble(ServiceSlider.Value), 2);
 
 
-            TipPercentageText.Text = Math.Round(ServiceSlider.Value,2).ToString();
-            TipAmountText.Text = Math.Round(tipCalc.GetTipAmount(),2).ToString();
-            TaxAmountText.Text = Math.Round(tipCalc.GetTaxAmount(),2).ToString();
 
-            TotalText.Text = Math.Round(tipCalc.GetTotalAmount(),2).ToString();
+            TipPercentageText.Text = tipCalc.Tip.ToString();
+
+            TipAmountText.Text = tipCalc.GetTipAmount().ToString();
+            TaxAmountText.Text = tipCalc.GetTaxAmount().ToString();
+
+            TotalText.Text = tipCalc.GetTotalAmount().ToString();
 
 
         }

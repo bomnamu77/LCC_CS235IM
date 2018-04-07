@@ -15,14 +15,14 @@ namespace TipCalc
             double result = 0;
             if (tip != 0)
                 result = amount * tip / 100;
-            return result;
+            return Math.Round(result, 2);
         }
         public double GetTaxAmount()
         {
             double result = 0;
             if (tax != 0)
                 result = amount * tax / 100;
-            return result;
+            return Math.Round(result,2);
         }
 
         public double GetTotalAmount()
@@ -33,7 +33,7 @@ namespace TipCalc
             if (tip != 0)
                 result += amount * tip / 100;
 
-            return result;
+            return Math.Round(result,2);
 
         }
     }
