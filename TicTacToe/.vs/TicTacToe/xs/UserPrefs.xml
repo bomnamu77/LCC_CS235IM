@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{01DAAD21-2476-4881-9171-2D38499169A7}|Default">
+  <MonoDevelop.Ide.ItemProperties.TicTacToe PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8ADF7AFA-7C3F-48B0-A050-CC485BF71194" FirstBuild="True">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.TicTacToe>
+  <MonoDevelop.Ide.Workbench ActiveDocument="TicTacToe/Main.storyboard">
+    <Files>
+      <File FileName="TicTacToe/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="TicTacToe/Main.storyboard" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -31,17 +31,18 @@ namespace TipCalc
 
             AmountText.EditingDidEnd += (object sender, EventArgs e) =>
             {
-
+                AmountText.ResignFirstResponder();
                 CheckChanges();
 
             };
 
             TaxPercentageText.EditingDidEnd += (object sender, EventArgs e) =>
             {
-
+                TaxPercentageText.ResignFirstResponder();
                 CheckChanges();
 
             };
+
             TaxSwitch.ValueChanged += (object sender, EventArgs e) =>
             {
                 UIActionSheet actionSheet;
@@ -111,3 +112,4 @@ namespace TipCalc
         }
     }
 }
+    

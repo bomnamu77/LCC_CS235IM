@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeralConv", "RomanNumeralConv\RomanNumeralConv.csproj", "{7A2C5EF3-AEDF-492E-8FF0-AC9A3E4848A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A2C5EF3-AEDF-492E-8FF0-AC9A3E4848A1}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{7A2C5EF3-AEDF-492E-8FF0-AC9A3E4848A1}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{7A2C5EF3-AEDF-492E-8FF0-AC9A3E4848A1}.Release|iPhone.ActiveCfg = Release|iPhone
+		{7A2C5EF3-AEDF-492E-8FF0-AC9A3E4848A1}.Release|iPhone.Build.0 = Release|iPhone
+		{7A2C5EF3-AEDF-492E-8FF0-AC9A3E4848A1}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{7A2C5EF3-AEDF-492E-8FF0-AC9A3E4848A1}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{7A2C5EF3-AEDF-492E-8FF0-AC9A3E4848A1}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{7A2C5EF3-AEDF-492E-8FF0-AC9A3E4848A1}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
