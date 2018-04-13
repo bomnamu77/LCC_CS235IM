@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{7A2C5EF3-AEDF-492E-8FF0-AC9A3E4848A1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RomanNumeralConv/NumberConvertor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RomanNumeralConv/Main.storyboard">
     <Files>
       <File FileName="RomanNumeralConv/Main.storyboard" />
-      <File FileName="RomanNumeralConv/ViewController.cs" Line="39" Column="48" />
-      <File FileName="RomanNumeralConv/NumberConvertor.cs" Line="21" Column="42" />
+      <File FileName="RomanNumeralConv/ViewController.cs" Line="25" Column="1" />
+      <File FileName="RomanNumeralConv/NumberConvertor.cs" Line="26" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/RomanNumeralConv/RomanNumeralConv/ViewController.cs" relfile="RomanNumeralConv/ViewController.cs" line="25" column="1" />
+      <Breakpoint file="/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/RomanNumeralConv/RomanNumeralConv/NumberConvertor.cs" relfile="RomanNumeralConv/NumberConvertor.cs" line="9" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

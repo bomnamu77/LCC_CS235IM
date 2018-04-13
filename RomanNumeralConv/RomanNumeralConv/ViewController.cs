@@ -26,7 +26,7 @@ namespace RomanNumeralConv
 
 
             // Dismiss the keyboard if text field was tapped
-            NumberText.ResignFirstResponder();
+            //NumberText.ResignFirstResponder();
 
             ResultLabel.Text = "Result: " + NumberText.Text + " -> " + result;
 
@@ -38,7 +38,7 @@ namespace RomanNumeralConv
         {
             int result = NumberConvertor.ToDecimalNumber(NumberText.Text);
             // Dismiss the keyboard if text field was tapped
-            NumberText.ResignFirstResponder();
+            //NumberText.ResignFirstResponder();
 
             ResultLabel.Text = "Result: " + NumberText.Text + " -> " + result;
 
