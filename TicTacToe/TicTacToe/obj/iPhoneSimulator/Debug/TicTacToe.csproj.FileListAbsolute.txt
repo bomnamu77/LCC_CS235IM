@@ -1,0 +1,11 @@
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/TicTacToe/TicTacToe/bin/iPhoneSimulator/Debug/TicTacToe.exe
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/TicTacToe/TicTacToe/bin/iPhoneSimulator/Debug/TicTacToe.pdb
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/TicTacToe/TicTacToe/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/TicTacToe/TicTacToe/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.3/actool/_PartialAppManifest.items
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/TicTacToe/TicTacToe/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.3/actool/_BundleResourceWithLogicalName.items
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/TicTacToe/TicTacToe/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.3/coremlc/_PartialAppManifest.items
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/TicTacToe/TicTacToe/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.3/coremlc/_BundleResourceWithLogicalName.items
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/TicTacToe/TicTacToe/obj/iPhoneSimulator/Debug/device-builds/iphone10.5-11.3/optimized/
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/TicTacToe/TicTacToe/obj/iPhoneSimulator/Debug/TicTacToe.csproj.CoreCompileInputs.cache
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/TicTacToe/TicTacToe/obj/iPhoneSimulator/Debug/TicTacToe.exe
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/TicTacToe/TicTacToe/obj/iPhoneSimulator/Debug/TicTacToe.pdb

@@ -15,39 +15,39 @@ namespace TicTacToe
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton 1_1Button { get; set; }
+        UIKit.UIButton Button1 { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton 1_2Button { get; set; }
+        UIKit.UIButton Button2 { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton 1_3Button { get; set; }
+        UIKit.UIButton Button3 { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton 2_1Button { get; set; }
+        UIKit.UIButton Button4 { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton 2_2Button { get; set; }
+        UIKit.UIButton Button5 { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton 2_3Button { get; set; }
+        UIKit.UIButton Button6 { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton 3_1Button { get; set; }
+        UIKit.UIButton Button7 { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton 3_2Button { get; set; }
+        UIKit.UIButton Button8 { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton 3_3Button { get; set; }
+        UIKit.UIButton Button9 { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -57,51 +57,55 @@ namespace TicTacToe
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel TitleLabel { get; set; }
 
+        [Action ("ResetButton_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void ResetButton_TouchUpInside (UIKit.UIButton sender);
+
         void ReleaseDesignerOutlets ()
         {
-            if (1_1Button != null) {
-                1_1Button.Dispose ();
-                1_1Button = null;
+            if (Button1 != null) {
+                Button1.Dispose ();
+                Button1 = null;
             }
 
-            if (1_2Button != null) {
-                1_2Button.Dispose ();
-                1_2Button = null;
+            if (Button2 != null) {
+                Button2.Dispose ();
+                Button2 = null;
             }
 
-            if (1_3Button != null) {
-                1_3Button.Dispose ();
-                1_3Button = null;
+            if (Button3 != null) {
+                Button3.Dispose ();
+                Button3 = null;
             }
 
-            if (2_1Button != null) {
-                2_1Button.Dispose ();
-                2_1Button = null;
+            if (Button4 != null) {
+                Button4.Dispose ();
+                Button4 = null;
             }
 
-            if (2_2Button != null) {
-                2_2Button.Dispose ();
-                2_2Button = null;
+            if (Button5 != null) {
+                Button5.Dispose ();
+                Button5 = null;
             }
 
-            if (2_3Button != null) {
-                2_3Button.Dispose ();
-                2_3Button = null;
+            if (Button6 != null) {
+                Button6.Dispose ();
+                Button6 = null;
             }
 
-            if (3_1Button != null) {
-                3_1Button.Dispose ();
-                3_1Button = null;
+            if (Button7 != null) {
+                Button7.Dispose ();
+                Button7 = null;
             }
 
-            if (3_2Button != null) {
-                3_2Button.Dispose ();
-                3_2Button = null;
+            if (Button8 != null) {
+                Button8.Dispose ();
+                Button8 = null;
             }
 
-            if (3_3Button != null) {
-                3_3Button.Dispose ();
-                3_3Button = null;
+            if (Button9 != null) {
+                Button9.Dispose ();
+                Button9 = null;
             }
 
             if (ResetButton != null) {
