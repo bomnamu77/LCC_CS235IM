@@ -96,13 +96,16 @@ namespace TipCalc
                 tipCalc.Tax = Math.Round(Convert.ToDouble(TaxPercentageText.Text),2);
             else
                 tipCalc.Tax = 0.0;
-            
-            tipCalc.Tip = Math.Round(Convert.ToDouble(ServiceSlider.Value), 2);
-
+            int serviceTip = (int)ServiceSlider.Value;
+            tipCalc.Tip = (int)ServiceSlider.Value;
+            //tipCalc.Tip = ServiceSlider.Value
+                
+           // sliderLabel.Text = progress.ToString();
 
 
             TipPercentageText.Text = tipCalc.Tip.ToString();
 
+            //TipAmountText.Text = tipCalc.GetTipAmount().ToString();
             TipAmountText.Text = tipCalc.GetTipAmount().ToString();
             TaxAmountText.Text = tipCalc.GetTaxAmount().ToString();
 

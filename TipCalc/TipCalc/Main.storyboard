@@ -70,7 +70,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                             </textField>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="0.0" maxValue="20" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="205">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="0.0" maxValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="205">
                                 <rect key="frame" x="147" y="343" width="180" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </slider>
@@ -175,6 +175,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Restaurants.jpg" width="850" height="478"/>
+        <image name="Restaurants.jpg" width="2160" height="1215"/>
     </resources>
 </document>

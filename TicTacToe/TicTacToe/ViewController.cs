@@ -46,92 +46,56 @@ namespace TicTacToe
         {
             UIButton button = (UIButton)sender;
 
-            UpdateButton(button, "X", false);
+            UpdateButton(button, "X", false);               //update the user selected button("X")
 
 
-            tictactoe.SetChoice(1, (int)button.Tag);
+            tictactoe.SetChoice(1, (int)button.Tag);        //set user's choice
 
-            int result = tictactoe.CheckWin();
-
-            if (result != 0)
-            {
-                string resultMsg="";
-                if (result == 1)
-                    resultMsg = "You won!!";
-                else if (result == -1)
-                    resultMsg = "Draw!!";
+            //int result = tictactoe.CheckWin();
+            int result = CheckResult(0);    //check the result of user's choice
                 
-
-                DisplayResult(resultMsg);
-                DisableInputs();
-            }
-            else
+            if (result == 0)   //if the game is not over yet, get the computer choice
             {
-                
+                //get the computer choice
                 int compChoice = tictactoe.ComputerChoice();
-                switch (compChoice)
+                //update a Button of computer choose
+                switch (compChoice)         //update the button that computer choose ("O")
                 {
                     case 1: 
-                        UpdateButton(button, "O", false);
+                        UpdateButton(Button1, "O", false);
                         break;
                     case 2:
-                        Button2.SetTitle("O", UIControlState.Normal);
-                        Button2.SetTitle("O", UIControlState.Disabled);
-                        Button2.Enabled = false;
+                        UpdateButton(Button2, "O", false);
                         break;
                     case 3:
-                        Button3.SetTitle("O", UIControlState.Normal);
-                        Button3.SetTitle("O", UIControlState.Disabled);
-                        Button3.Enabled = false;
+                        UpdateButton(Button3, "O", false);
                         break;
                     case 4:
-                        Button4.SetTitle("O", UIControlState.Normal);
-                        Button4.SetTitle("O", UIControlState.Disabled);
-                        Button4.Enabled = false;
+                        UpdateButton(Button4, "O", false);
                         break;
                     case 5:
-                        Button5.SetTitle("O", UIControlState.Normal);
-                        Button5.SetTitle("O", UIControlState.Disabled);
-                        Button5.Enabled = false;
+                        UpdateButton(Button5, "O", false);
                         break;
                     case 6:
-                        Button6.SetTitle("O", UIControlState.Normal);
-                        Button6.SetTitle("O", UIControlState.Disabled);
-                        Button6.Enabled = false;
+                        UpdateButton(Button6, "O", false);
                         break;
                     case 7:
-                        Button7.SetTitle("O", UIControlState.Normal);
-                        Button7.SetTitle("O", UIControlState.Disabled);
-                        Button7.Enabled = false;
+                        UpdateButton(Button7, "O", false);
                         break;
                     case 8:
-                        Button8.SetTitle("O", UIControlState.Normal);
-                        Button8.SetTitle("O", UIControlState.Disabled);
-                        Button8.Enabled = false;
+                        UpdateButton(Button8, "O", false);
                         break;
                     case 9:
-                        Button9.SetTitle("O", UIControlState.Normal);
-                        Button9.SetTitle("O", UIControlState.Disabled);
-                        Button9.Enabled = false;
+                        UpdateButton(Button9, "O", false);
                         break;
                  
                     default:
                         break;
                 }
 
-                result = tictactoe.CheckWin();
-                if (result != 0)
-                {
-                    string resultMsg = "";
 
-                    if (result == 1)
-                        resultMsg = "Computer won!!";
-                    else if (result == -1)
-                        resultMsg = "Draw!!";
-
-                    DisplayResult(resultMsg);
-                    DisableInputs();
-                }
+                result = CheckResult(1); //check the result of computer's choice
+             
 
             }
 
@@ -163,36 +127,19 @@ namespace TicTacToe
 
         void ResetBoard()
         {
-            Button1.SetTitle("", UIControlState.Normal);
-            Button1.SetTitle("", UIControlState.Disabled);
-            Button1.Enabled = true;
-            Button2.SetTitle("", UIControlState.Normal);
-            Button2.SetTitle("", UIControlState.Disabled);
-            Button2.Enabled = true;
-            Button3.SetTitle("", UIControlState.Normal);
-            Button3.SetTitle("", UIControlState.Disabled);
-            Button3.Enabled = true;
-            Button4.SetTitle("", UIControlState.Normal);
-            Button4.SetTitle("", UIControlState.Disabled);
-            Button4.Enabled = true;
-            Button5.SetTitle("", UIControlState.Normal);
-            Button5.SetTitle("", UIControlState.Disabled);
-            Button5.Enabled = true;
-            Button6.SetTitle("", UIControlState.Normal);
-            Button6.SetTitle("", UIControlState.Disabled);
-            Button6.Enabled = true;
-            Button7.SetTitle("", UIControlState.Normal);
-            Button7.SetTitle("", UIControlState.Disabled);
-            Button7.Enabled = true;
-            Button8.SetTitle("", UIControlState.Normal);
-            Button8.SetTitle("", UIControlState.Disabled);
-            Button8.Enabled = true;
-            Button9.SetTitle("", UIControlState.Normal);
-            Button9.SetTitle("", UIControlState.Disabled);
-            Button9.Enabled = true;
+            UpdateButton(Button1, "", true);
+            UpdateButton(Button2, "", true);
+            UpdateButton(Button3, "", true);
+            UpdateButton(Button4, "", true);
+            UpdateButton(Button5, "", true);
+            UpdateButton(Button6, "", true);
+            UpdateButton(Button7, "", true);
+            UpdateButton(Button8, "", true);
+            UpdateButton(Button9, "", true);
 
         }
 
+        //update button's title and status based on inputs
         void UpdateButton(UIButton button, string title, bool enabled)
         {
 
@@ -202,5 +149,29 @@ namespace TicTacToe
             button.Enabled = enabled;
         }
 
+        //checks result and display message if the game is over
+        int CheckResult(int player)
+        {
+            int result = tictactoe.CheckWin();      // result 0 - not over
+
+            if (result != 0)        
+            {
+                string resultMsg = "";
+
+                if (result == 1)            // result 1 - current player won
+                    resultMsg = player==0?"You won":"Computer won!!";
+                else if (result == -1)      // result -1  - draw
+                    resultMsg = "Draw!!";
+
+                DisplayResult(resultMsg);
+                DisableInputs();
+
+
+            }
+
+
+            return result;
+
+        }
     }
 }

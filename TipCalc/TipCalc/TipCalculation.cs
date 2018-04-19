@@ -4,10 +4,11 @@ namespace TipCalc
     public class TipCalculation
     {
 
-        double amount, tip, tax;
+        double amount, tax;
+        int tip;
 
         public double Amount { get { return amount; } set { amount = value; } }
-        public double Tip { get { return tip; } set { tip = value; } }
+        public int Tip { get { return tip; } set { tip = value; } }
         public double Tax { get { return tax; } set { tax = value; } }
 
         public double GetTipAmount()

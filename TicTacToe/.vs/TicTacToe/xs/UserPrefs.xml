@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{01DAAD21-2476-4881-9171-2D38499169A7}|Default">
   <MonoDevelop.Ide.ItemProperties.TicTacToe PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0E4767B8-A14F-4D14-92A6-E61CFD86A048" automaticSigning="False" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TicTacToe/Main.storyboard">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TicTacToe/ViewController.cs">
     <Files>
       <File FileName="TicTacToe/AppDelegate.cs" Line="16" Column="17" />
-      <File FileName="TicTacToe/TicTacToeGame.cs" Line="65" Column="17" />
-      <File FileName="TicTacToe/ViewController.cs" Line="91" Column="8" />
+      <File FileName="TicTacToe/TicTacToeGame.cs" Line="46" Column="9" />
+      <File FileName="TicTacToe/ViewController.cs" Line="99" Column="44" />
       <File FileName="TicTacToe/ViewController.designer.cs" Line="1" Column="1" />
       <File FileName="TicTacToe/Main.cs" Line="16" Column="1" />
       <File FileName="TicTacToe/Entitlements.plist" />
@@ -15,9 +15,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/TicTacToe/TicTacToe/ViewController.cs" relfile="TicTacToe/ViewController.cs" line="41" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
