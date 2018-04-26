@@ -35,14 +35,13 @@ namespace TipCalc
                 CheckChanges();
 
             };
-
-            TaxPercentageText.EditingDidEnd += (object sender, EventArgs e) =>
+            
+            TaxPercentageText.EditingDidEnd+= (object sender, EventArgs e) =>
             {
                 TaxPercentageText.ResignFirstResponder();
                 CheckChanges();
 
-            };
-
+            }; 
             TaxSwitch.ValueChanged += (object sender, EventArgs e) =>
             {
                 UIActionSheet actionSheet;
@@ -98,18 +97,15 @@ namespace TipCalc
                 tipCalc.Tax = 0.0;
             int serviceTip = (int)ServiceSlider.Value;
             tipCalc.Tip = (int)ServiceSlider.Value;
-            //tipCalc.Tip = ServiceSlider.Value
-                
-           // sliderLabel.Text = progress.ToString();
+
 
 
             TipPercentageText.Text = tipCalc.Tip.ToString();
 
-            //TipAmountText.Text = tipCalc.GetTipAmount().ToString();
-            TipAmountText.Text = tipCalc.GetTipAmount().ToString();
-            TaxAmountText.Text = tipCalc.GetTaxAmount().ToString();
+            TipAmountText.Text = "$ "+tipCalc.GetTipAmount().ToString();
+            TaxAmountText.Text = "$ " +tipCalc.GetTaxAmount().ToString();
 
-            TotalText.Text = tipCalc.GetTotalAmount().ToString();
+            TotalText.Text = "$ "+tipCalc.GetTotalAmount().ToString();
 
 
         }

@@ -11,6 +11,7 @@ namespace TipCalc
         public int Tip { get { return tip; } set { tip = value; } }
         public double Tax { get { return tax; } set { tax = value; } }
 
+        //get tip amount in dollar
         public double GetTipAmount()
         {
             double result = 0;
@@ -18,6 +19,7 @@ namespace TipCalc
                 result = amount * tip / 100;
             return Math.Round(result, 2);
         }
+        //Get tax amount in dollar
         public double GetTaxAmount()
         {
             double result = 0;
@@ -25,14 +27,10 @@ namespace TipCalc
                 result = amount * tax / 100;
             return Math.Round(result,2);
         }
-
+        //Get total amount of payment
         public double GetTotalAmount()
         {
-            double result = amount;
-            if (tax != 0)
-                result += amount * tax / 100;
-            if (tip != 0)
-                result += amount * tip / 100;
+            double result = amount + GetTaxAmount() + GetTipAmount();
 
             return Math.Round(result,2);
 

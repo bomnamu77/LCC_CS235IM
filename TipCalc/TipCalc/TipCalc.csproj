@@ -85,6 +85,10 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Image.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Image.imageset\Restaurants1x.jpeg" />
+    <ImageAsset Include="Assets.xcassets\Image.imageset\restaurant_2x.jpeg" />
+    <ImageAsset Include="Assets.xcassets\Image.imageset\restaurant_3x.jpeg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
