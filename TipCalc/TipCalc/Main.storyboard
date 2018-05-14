@@ -103,7 +103,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Percentage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="212" misplaced="YES" ambiguous="YES">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Percentage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="212" misplaced="YES" ambiguous="YES" preferredMaxLayoutWidth="97">
                                 <rect key="frame" x="130" y="524" width="97" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -161,7 +161,7 @@
                             <constraint id="2522" firstItem="210" firstAttribute="leading" secondItem="212" secondAttribute="leading"/>
                             <constraint id="2527" firstItem="216" firstAttribute="top" secondItem="213" secondAttribute="bottom" constant="49"/>
                             <constraint id="2528" firstItem="213" firstAttribute="top" secondItem="211" secondAttribute="bottom" constant="20"/>
-                            <constraint id="2530" firstItem="212" firstAttribute="top" secondItem="210" secondAttribute="bottom" constant="20"/>
+                            <constraint id="2530" firstItem="212" firstAttribute="top" secondItem="210" secondAttribute="bottom" constant="18"/>
                             <constraint id="2531" firstItem="210" firstAttribute="top" secondItem="208" secondAttribute="bottom" constant="16"/>
                             <constraint id="2535" firstItem="215" firstAttribute="top" secondItem="212" secondAttribute="bottom" constant="53"/>
                             <constraint id="2536" firstItem="215" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="150"/>
@@ -190,9 +190,7 @@
                             <constraint id="3285" firstItem="213" firstAttribute="top" secondItem="212" secondAttribute="top"/>
                             <constraint id="3287" firstItem="213" firstAttribute="width" secondItem="211" secondAttribute="width"/>
                             <constraint id="3288" firstItem="211" firstAttribute="trailing" secondItem="213" secondAttribute="trailing"/>
-                            <constraint id="3289" firstItem="212" firstAttribute="width" secondItem="210" secondAttribute="width"/>
                             <constraint id="3290" firstItem="210" firstAttribute="width" secondItem="208" secondAttribute="width"/>
-                            <constraint id="3291" firstItem="212" firstAttribute="width" secondItem="208" secondAttribute="width"/>
                             <constraint id="3292" firstItem="210" firstAttribute="leading" secondItem="208" secondAttribute="leading"/>
                             <constraint id="3293" firstItem="212" firstAttribute="leading" secondItem="208" secondAttribute="leading"/>
                             <constraint id="3294" firstItem="201" firstAttribute="width" secondItem="206" secondAttribute="width"/>

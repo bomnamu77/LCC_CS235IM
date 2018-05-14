@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4654">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TicTacToe Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="197" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="144.5" y="232" width="125" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="198" translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" tag="2">
+                                <rect key="frame" x="186.5" y="269.5" width="46" height="46"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.69019607843137254" green="0.96470588235294119" blue="1" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="0.6" green="0.4" blue="0.2" alpha="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="199" translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" tag="5">
+                                <rect key="frame" x="186.5" y="325.5" width="46" height="46"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.69019607843137254" green="0.96470588235294119" blue="1" alpha="1"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="200" translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" tag="8">
+                                <rect key="frame" x="186.5" y="381.5" width="46" height="46"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.69019607843137254" green="0.96470588235294119" blue="1" alpha="1"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="201" translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" tag="3">
+                                <rect key="frame" x="242.5" y="269.5" width="46" height="46"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.69019607843137254" green="0.96470588235294119" blue="1" alpha="1"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="202" translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" tag="6">
+                                <rect key="frame" x="242.5" y="325.5" width="46" height="46"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.69019607843137254" green="0.96470588235294119" blue="1" alpha="1"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="203" translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" tag="9">
+                                <rect key="frame" x="242.5" y="381.5" width="46" height="46"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.69019607843137254" green="0.96470588235294119" blue="1" alpha="1"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="204" translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" tag="1">
+                                <rect key="frame" x="130.5" y="269.5" width="46" height="46"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.69019607843137254" green="0.96470588235294119" blue="1" alpha="1"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <constraints>
+                                    <constraint id="320" firstItem="204" firstAttribute="width" constant="46"/>
+                                    <constraint id="321" firstItem="204" firstAttribute="height" constant="46"/>
+                                </constraints>
+                                <connections/>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="205" translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" tag="4">
+                                <rect key="frame" x="130.5" y="325.5" width="46" height="46"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.69019607843137254" green="0.96470588235294119" blue="1" alpha="1"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="206" translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" tag="7">
+                                <rect key="frame" x="130.5" y="381.5" width="46" height="46"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.69019607843137254" green="0.96470588235294119" blue="1" alpha="1"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="210" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="167.5" y="434.5" width="84" height="30"/>
+                                <state key="normal" title="Reset Game"/>
+                                <connections>
+                                    <action selector="ResetButton_TouchUpInside:" destination="BYZ-38-t0r" id="4336" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4676" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="186" y="486" width="46" height="30"/>
+                                <state key="normal" title="About"/>
+                                <connections>
+                                    <action selector="TouchUpInsideEachButton:" destination="BYZ-38-t0r" id="5318" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4677" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="176" y="538" width="67" height="30"/>
+                                <state key="normal" title="History"/>
+                                <connections>
+                                    <action selector="TouchUpInsideEachButton:" destination="BYZ-38-t0r" id="8547" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint id="245" firstItem="203" firstAttribute="top" secondItem="202" secondAttribute="bottom" constant="10"/>
+                            <constraint id="323" firstItem="197" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX"/>
+                            <constraint id="340" firstItem="197" firstAttribute="leading" secondItem="204" secondAttribute="leading" constant="14"/>
+                            <constraint id="347" firstItem="201" firstAttribute="leading" secondItem="198" secondAttribute="trailing" constant="10"/>
+                            <constraint id="348" firstItem="199" firstAttribute="leading" secondItem="198" secondAttribute="leading"/>
+                            <constraint id="349" firstItem="200" firstAttribute="leading" secondItem="198" secondAttribute="leading"/>
+                            <constraint id="350" firstItem="202" firstAttribute="leading" secondItem="201" secondAttribute="leading"/>
+                            <constraint id="351" firstItem="203" firstAttribute="leading" secondItem="201" secondAttribute="leading"/>
+                            <constraint id="352" firstItem="199" firstAttribute="top" secondItem="205" secondAttribute="top"/>
+                            <constraint id="353" firstItem="202" firstAttribute="top" secondItem="205" secondAttribute="top"/>
+                            <constraint id="354" firstItem="206" firstAttribute="top" secondItem="205" secondAttribute="bottom" constant="10"/>
+                            <constraint id="356" firstItem="199" firstAttribute="top" secondItem="198" secondAttribute="bottom" constant="10"/>
+                            <constraint id="357" firstItem="202" firstAttribute="top" secondItem="201" secondAttribute="bottom" constant="10"/>
+                            <constraint id="358" firstItem="200" firstAttribute="top" secondItem="199" secondAttribute="bottom" constant="10"/>
+                            <constraint id="365" firstItem="204" firstAttribute="centerY" secondItem="197" secondAttribute="bottom" constant="40"/>
+                            <constraint id="366" firstItem="204" firstAttribute="centerX" secondItem="197" secondAttribute="leading" constant="9"/>
+                            <constraint id="367" firstItem="205" firstAttribute="top" secondItem="204" secondAttribute="bottom" constant="10"/>
+                            <constraint id="368" firstItem="198" firstAttribute="leading" secondItem="204" secondAttribute="trailing" constant="10"/>
+                            <constraint id="369" firstItem="198" firstAttribute="width" secondItem="204" secondAttribute="width"/>
+                            <constraint id="370" firstItem="201" firstAttribute="width" secondItem="204" secondAttribute="width"/>
+                            <constraint id="371" firstItem="202" firstAttribute="width" secondItem="204" secondAttribute="width"/>
+                            <constraint id="372" firstItem="199" firstAttribute="width" secondItem="204" secondAttribute="width"/>
+                            <constraint id="373" firstItem="205" firstAttribute="width" secondItem="204" secondAttribute="width"/>
+                            <constraint id="374" firstItem="206" firstAttribute="width" secondItem="204" secondAttribute="width"/>
+                            <constraint id="375" firstItem="200" firstAttribute="width" secondItem="204" secondAttribute="width"/>
+                            <constraint id="376" firstItem="203" firstAttribute="width" secondItem="204" secondAttribute="width"/>
+                            <constraint id="377" firstItem="198" firstAttribute="height" secondItem="204" secondAttribute="height"/>
+                            <constraint id="378" firstItem="201" firstAttribute="height" secondItem="204" secondAttribute="height"/>
+                            <constraint id="379" firstItem="202" firstAttribute="height" secondItem="204" secondAttribute="height"/>
+                            <constraint id="380" firstItem="199" firstAttribute="height" secondItem="204" secondAttribute="height"/>
+                            <constraint id="381" firstItem="205" firstAttribute="height" secondItem="204" secondAttribute="height"/>
+                            <constraint id="382" firstItem="206" firstAttribute="height" secondItem="204" secondAttribute="height"/>
+                            <constraint id="383" firstItem="200" firstAttribute="height" secondItem="204" secondAttribute="height"/>
+                            <constraint id="384" firstItem="203" firstAttribute="height" secondItem="204" secondAttribute="height"/>
+                            <constraint id="385" firstItem="205" firstAttribute="leading" secondItem="204" secondAttribute="leading"/>
+                            <constraint id="386" firstItem="206" firstAttribute="leading" secondItem="204" secondAttribute="leading"/>
+                            <constraint id="388" firstItem="210" firstAttribute="centerY" secondItem="200" secondAttribute="bottom" constant="22"/>
+                            <constraint id="389" firstItem="210" firstAttribute="centerX" secondItem="200" secondAttribute="leading" constant="23"/>
+                            <constraint id="390" firstItem="8bC-Xf-vdC" firstAttribute="centerY" secondItem="197" secondAttribute="centerY" constant="126"/>
+                            <constraint id="6759" firstItem="4676" firstAttribute="top" secondItem="210" secondAttribute="bottom" constant="21"/>
+                            <constraint id="6760" firstItem="4676" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="2"/>
+                            <constraint id="6761" firstItem="4677" firstAttribute="top" secondItem="4676" secondAttribute="bottom" constant="22"/>
+                            <constraint id="6762" firstItem="4677" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ResetButton" destination="210" id="name-outlet-210"/>
+                        <outlet property="Button1" destination="204" id="name-outlet-204"/>
+                        <outlet property="Button2" destination="198" id="name-outlet-198"/>
+                        <outlet property="Button3" destination="201" id="name-outlet-201"/>
+                        <outlet property="Button4" destination="205" id="name-outlet-205"/>
+                        <outlet property="Button5" destination="199" id="name-outlet-199"/>
+                        <outlet property="Button6" destination="202" id="name-outlet-202"/>
+                        <outlet property="Button7" destination="206" id="name-outlet-206"/>
+                        <outlet property="Button8" destination="200" id="name-outlet-200"/>
+                        <outlet property="Button9" destination="203" id="name-outlet-203"/>
+                        <outlet property="TitleLabel" destination="197" id="name-outlet-197"/>
+                        <outlet property="AboutButton" destination="4676" id="name-outlet-4676"/>
+                        <outlet property="HistoryButton" destination="4677" id="name-outlet-4677"/>
+                    </connections>
+                    <navigationItem title="TicTacToe" id="4673" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <scene sceneID="4653">
+            <objects>
+                <navigationController id="4654" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4656">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="4674" destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4657" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-465" y="-1"/>
+        </scene>
+        <scene sceneID="4988">
+            <objects>
+                <viewController id="4989" sceneMemberID="viewController" customClass="AboutViewController" storyboardIdentifier="AboutViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4986"/>
+                        <viewControllerLayoutGuide type="bottom" id="4987"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4990">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5000" translatesAutoresizingMaskIntoConstraints="NO" numberOfLines="10">
+                                <rect key="frame" x="37" y="76" width="329" height="367"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="10124" firstItem="5000" firstAttribute="width" constant="329"/>
+                                    <constraint id="10125" firstItem="5000" firstAttribute="height" constant="367"/>
+                                </constraints>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint id="6765" firstItem="4990" firstAttribute="centerY" secondItem="5000" secondAttribute="centerY" constant="108.5"/>
+                            <constraint id="7420" firstItem="5000" firstAttribute="leading" secondItem="4990" secondAttribute="leadingMargin" constant="17"/>
+                            <constraint id="7422" firstItem="4990" firstAttribute="trailingMargin" secondItem="5000" secondAttribute="trailing" constant="28"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="AboutLabel" destination="5000" id="name-outlet-5000"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4991" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="518" y="-233"/>
+        </scene>
+        <scene sceneID="4995">
+            <objects>
+                <viewController id="4996" sceneMemberID="viewController" customClass="HistoryViewController" storyboardIdentifier="HistoryViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4993"/>
+                        <viewControllerLayoutGuide type="bottom" id="4994"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4997">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You played " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5001" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="49" y="151" width="325" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You won " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8882" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="49" y="187" width="325" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You lost " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8883" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="49" y="223" width="325" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint id="6766" firstItem="5001" firstAttribute="centerX" secondItem="4997" secondAttribute="centerX" constant="4.5"/>
+                            <constraint id="6767" firstItem="4997" firstAttribute="centerY" secondItem="5001" secondAttribute="centerY" constant="207"/>
+                            <constraint id="7427" firstItem="5001" firstAttribute="leading" secondItem="4997" secondAttribute="leadingMargin" constant="29"/>
+                            <constraint id="8884" firstItem="8882" firstAttribute="top" secondItem="5001" secondAttribute="bottom" constant="16"/>
+                            <constraint id="8885" firstItem="8883" firstAttribute="top" secondItem="8882" secondAttribute="bottom" constant="16"/>
+                            <constraint id="8886" firstItem="8882" firstAttribute="leading" secondItem="5001" secondAttribute="leading"/>
+                            <constraint id="8887" firstItem="8883" firstAttribute="leading" secondItem="5001" secondAttribute="leading"/>
+                            <constraint id="8888" firstItem="8882" firstAttribute="width" secondItem="5001" secondAttribute="width"/>
+                            <constraint id="8889" firstItem="8883" firstAttribute="width" secondItem="5001" secondAttribute="width"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="HistoryLabel" destination="5001" id="name-outlet-5001"/>
+                        <outlet property="WinLabel" destination="8882" id="name-outlet-8882"/>
+                        <outlet property="LossLabel" destination="8883" id="name-outlet-8883"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4998" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="524" y="578"/>
+        </scene>
+    </scenes>
+</document>

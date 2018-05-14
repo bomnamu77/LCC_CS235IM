@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="197">
+                                <rect key="frame" x="65" y="85.5" width="286" height="157"/>
+                                <constraints>
+                                    <constraint id="5068" firstItem="197" firstAttribute="height" constant="157"/>
+                                    <constraint id="5078" firstItem="197" firstAttribute="width" constant="286"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip Calculator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="198">
+                                <rect key="frame" x="150.5" y="57" width="115" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="5091" firstAttribute="width" constant="115"/>
+                                </constraints>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount ($)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="199">
+                                <rect key="frame" x="65" y="268" width="87.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="200">
+                                <rect key="frame" x="65" y="318.5" width="68.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip (%)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="201">
+                                <rect key="frame" x="65" y="403" width="62" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Poor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="202">
+                                <rect key="frame" x="173.5" y="348" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="5094" firstItem="202" firstAttribute="height" constant="21"/>
+                                    <constraint id="5095" firstItem="202" firstAttribute="width" constant="42"/>
+                                </constraints>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Excellent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="203">
+                                <rect key="frame" x="274.5" y="348" width="74" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="5096" firstItem="203" firstAttribute="width" constant="74"/>
+                                </constraints>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="204">
+                                <rect key="frame" x="173.5" y="267.5" width="177" height="30"/>
+                                <nil key="textColor"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <constraints>
+                                    <constraint id="5076" firstItem="204" firstAttribute="width" constant="177"/>
+                                </constraints>
+                            </textField>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="0.0" maxValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="205">
+                                <rect key="frame" x="173.5" y="312.5" width="177" height="31"/>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tax (%)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="206">
+                                <rect key="frame" x="65" y="449.5" width="62" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="207">
+                                <rect key="frame" x="61" y="995" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="208">
+                                <rect key="frame" x="131" y="403" width="96.5" height="30.5"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="209">
+                                <rect key="frame" x="254.5" y="403" width="96.5" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="210">
+                                <rect key="frame" x="131" y="449.5" width="96.5" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="211">
+                                <rect key="frame" x="254.5" y="449.5" width="96.5" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Percentage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="212" preferredMaxLayoutWidth="97">
+                                <rect key="frame" x="131" y="499.5" width="87.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="213">
+                                <rect key="frame" x="254.5" y="499.5" width="96.5" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="214">
+                                <rect key="frame" x="65" y="495" width="51" height="31"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="215">
+                                <rect key="frame" x="170.5" y="560.5" width="37.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="216">
+                                <rect key="frame" x="227" y="560.5" width="124" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="6428" firstItem="216" firstAttribute="width" constant="124"/>
+                                </constraints>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint id="1373" firstItem="200" firstAttribute="leading" secondItem="199" secondAttribute="leading"/>
+                            <constraint id="1934" firstItem="197" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX">
+                                <variation key="heightClass=regular-widthClass=compact" constant="1"/>
+                            </constraint>
+                            <constraint id="1940" firstItem="199" firstAttribute="leading" secondItem="197" secondAttribute="leading"/>
+                            <constraint id="1941" firstItem="200" firstAttribute="leading" secondItem="197" secondAttribute="leading"/>
+                            <constraint id="2512" firstItem="200" firstAttribute="top" secondItem="199" secondAttribute="bottom" constant="30"/>
+                            <constraint id="2514" firstItem="206" firstAttribute="top" secondItem="201" secondAttribute="bottom" constant="26"/>
+                            <constraint id="2516" firstItem="214" firstAttribute="leading" secondItem="206" secondAttribute="leading"/>
+                            <constraint id="2517" firstItem="204" firstAttribute="leading" secondItem="199" secondAttribute="trailing" constant="21"/>
+                            <constraint id="2519" firstItem="205" firstAttribute="leading" secondItem="200" secondAttribute="trailing" constant="42"/>
+                            <constraint id="2521" firstItem="214" firstAttribute="top" secondItem="206" secondAttribute="bottom" constant="25"/>
+                            <constraint id="2522" firstItem="210" firstAttribute="leading" secondItem="212" secondAttribute="leading"/>
+                            <constraint id="2527" firstItem="216" firstAttribute="top" secondItem="213" secondAttribute="bottom" constant="45"/>
+                            <constraint id="2528" firstItem="213" firstAttribute="top" secondItem="211" secondAttribute="bottom" constant="20"/>
+                            <constraint id="2530" firstItem="212" firstAttribute="top" secondItem="210" secondAttribute="bottom" constant="20"/>
+                            <constraint id="2531" firstItem="210" firstAttribute="top" secondItem="208" secondAttribute="bottom" constant="16"/>
+                            <constraint id="2537" firstItem="216" firstAttribute="leading" secondItem="215" secondAttribute="trailing" constant="19"/>
+                            <constraint id="2868" firstItem="205" firstAttribute="top" secondItem="204" secondAttribute="bottom" constant="15"/>
+                            <constraint id="2871" firstItem="205" firstAttribute="leading" secondItem="204" secondAttribute="leading" constant="2"/>
+                            <constraint id="2878" firstItem="208" firstAttribute="leading" secondItem="201" secondAttribute="trailing" constant="4"/>
+                            <constraint id="2883" firstItem="8bC-Xf-vdC" firstAttribute="trailingMargin" secondItem="211" secondAttribute="trailing" constant="43"/>
+                            <constraint id="2884" firstItem="211" firstAttribute="leading" secondItem="210" secondAttribute="trailing" constant="27"/>
+                            <constraint id="2888" firstItem="211" firstAttribute="leading" secondItem="210" secondAttribute="trailing" constant="27"/>
+                            <constraint id="2892" firstItem="208" firstAttribute="width" secondItem="210" secondAttribute="width"/>
+                            <constraint id="2893" firstItem="208" firstAttribute="leading" secondItem="210" secondAttribute="leading"/>
+                            <constraint id="2894" firstItem="208" firstAttribute="width" secondItem="210" secondAttribute="width"/>
+                            <constraint id="2895" firstItem="209" firstAttribute="width" secondItem="210" secondAttribute="width"/>
+                            <constraint id="2896" firstItem="211" firstAttribute="width" secondItem="210" secondAttribute="width"/>
+                            <constraint id="2898" firstItem="210" firstAttribute="top" secondItem="206" secondAttribute="top"/>
+                            <constraint id="2899" firstItem="211" firstAttribute="top" secondItem="206" secondAttribute="top"/>
+                            <constraint id="2900" firstItem="208" firstAttribute="top" secondItem="201" secondAttribute="top"/>
+                            <constraint id="2901" firstItem="209" firstAttribute="top" secondItem="201" secondAttribute="top"/>
+                            <constraint id="2902" firstItem="210" firstAttribute="leading" secondItem="212" secondAttribute="leading"/>
+                            <constraint id="2903" firstItem="208" firstAttribute="leading" secondItem="212" secondAttribute="leading"/>
+                            <constraint id="2904" firstItem="213" firstAttribute="centerY" secondItem="211" secondAttribute="centerY" constant="43"/>
+                            <constraint id="2908" firstItem="211" firstAttribute="trailing" secondItem="216" secondAttribute="trailing"/>
+                            <constraint id="3285" firstItem="213" firstAttribute="top" secondItem="212" secondAttribute="top"/>
+                            <constraint id="3287" firstItem="213" firstAttribute="width" secondItem="211" secondAttribute="width"/>
+                            <constraint id="3288" firstItem="211" firstAttribute="trailing" secondItem="213" secondAttribute="trailing"/>
+                            <constraint id="3290" firstItem="210" firstAttribute="width" secondItem="208" secondAttribute="width"/>
+                            <constraint id="3292" firstItem="210" firstAttribute="leading" secondItem="208" secondAttribute="leading"/>
+                            <constraint id="3293" firstItem="212" firstAttribute="leading" secondItem="208" secondAttribute="leading"/>
+                            <constraint id="3294" firstItem="201" firstAttribute="width" secondItem="206" secondAttribute="width"/>
+                            <constraint id="3295" firstItem="209" firstAttribute="leading" secondItem="208" secondAttribute="trailing" constant="27"/>
+                            <constraint id="3679" firstItem="205" firstAttribute="leading" secondItem="202" secondAttribute="leading" constant="2"/>
+                            <constraint id="3680" firstItem="202" firstAttribute="top" secondItem="205" secondAttribute="bottom" constant="5.5"/>
+                            <constraint id="3684" firstItem="203" firstAttribute="top" secondItem="202" secondAttribute="top"/>
+                            <constraint id="5087" firstItem="204" firstAttribute="top" secondItem="199" secondAttribute="top" constant="-0.5"/>
+                            <constraint id="5088" firstItem="204" firstAttribute="top" secondItem="197" secondAttribute="bottom" constant="25"/>
+                            <constraint id="5092" firstItem="8bC-Xf-vdC" firstAttribute="centerY" secondItem="197" secondAttribute="centerY" constant="204"/>
+                            <constraint id="5093" firstItem="8bC-Xf-vdC" firstAttribute="centerY" secondItem="197" secondAttribute="centerY" constant="43"/>
+                            <constraint id="5099" firstItem="206" firstAttribute="leading" secondItem="201" secondAttribute="leading"/>
+                            <constraint id="5100" firstItem="214" firstAttribute="leading" secondItem="201" secondAttribute="leading"/>
+                            <constraint id="5101" firstItem="205" firstAttribute="width" secondItem="204" secondAttribute="width" constant="-4"/>
+                            <constraint id="5475" firstItem="8bC-Xf-vdC" firstAttribute="centerX" secondItem="201" secondAttribute="centerX" constant="-60"/>
+                            <constraint id="5476" firstItem="201" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-25"/>
+                            <constraint id="5666" firstItem="201" firstAttribute="leading" secondItem="200" secondAttribute="leading"/>
+                            <constraint id="6044" firstItem="201" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="45"/>
+                            <constraint id="6045" firstItem="8bC-Xf-vdC" firstAttribute="centerX" secondItem="201" secondAttribute="centerX" constant="111"/>
+                            <constraint id="6426" firstItem="8bC-Xf-vdC" firstAttribute="centerX" secondItem="197" secondAttribute="centerX" constant="180"/>
+                            <constraint id="7186" firstItem="197" firstAttribute="centerY" secondItem="198" secondAttribute="centerY" constant="97"/>
+                            <constraint id="7187" firstItem="198" firstAttribute="centerX" secondItem="197" secondAttribute="centerX"/>
+                            <constraint id="7189" firstItem="199" firstAttribute="top" secondItem="204" secondAttribute="top" constant="0.5"/>
+                            <constraint id="7191" firstItem="215" firstAttribute="top" secondItem="216" secondAttribute="top"/>
+                            <constraint id="7949" firstItem="205" firstAttribute="trailing" secondItem="203" secondAttribute="trailing"/>
+                            <constraint id="7950" firstItem="201" firstAttribute="top" secondItem="200" secondAttribute="bottom" constant="64"/>
+                            <constraint id="7951" firstItem="201" firstAttribute="top" secondItem="205" secondAttribute="bottom" constant="60"/>
+                            <constraint id="7952" firstItem="201" firstAttribute="leading" secondItem="200" secondAttribute="leading"/>
+                            <constraint id="7953" firstItem="201" firstAttribute="top" secondItem="200" secondAttribute="bottom" constant="64"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="1934"/>
+                                <exclude reference="5092"/>
+                                <exclude reference="5093"/>
+                                <exclude reference="5475"/>
+                                <exclude reference="5666"/>
+                                <exclude reference="5476"/>
+                                <exclude reference="6426"/>
+                                <exclude reference="6045"/>
+                                <exclude reference="6044"/>
+                                <exclude reference="2512"/>
+                                <exclude reference="7950"/>
+                                <exclude reference="2868"/>
+                                <exclude reference="7951"/>
+                                <exclude reference="1373"/>
+                                <exclude reference="7953"/>
+                                <exclude reference="1941"/>
+                                <exclude reference="2871"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="1934"/>
+                                <exclude reference="5087"/>
+                                <include reference="5092"/>
+                                <include reference="5666"/>
+                                <include reference="6045"/>
+                                <include reference="6044"/>
+                                <include reference="2512"/>
+                                <include reference="2868"/>
+                                <include reference="1373"/>
+                                <include reference="1941"/>
+                                <include reference="2871"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="5093"/>
+                                <include reference="5475"/>
+                                <include reference="5476"/>
+                                <include reference="6426"/>
+                                <include reference="7950"/>
+                                <include reference="7951"/>
+                                <include reference="7953"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="1934"/>
+                                <include reference="5092"/>
+                                <include reference="6045"/>
+                                <include reference="6044"/>
+                                <include reference="2512"/>
+                                <include reference="2868"/>
+                                <include reference="1373"/>
+                                <include reference="1941"/>
+                                <include reference="2871"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="5093"/>
+                                <include reference="5475"/>
+                                <include reference="5476"/>
+                                <include reference="6426"/>
+                                <include reference="7950"/>
+                                <include reference="7951"/>
+                                <include reference="7953"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="AmountLabel" destination="213" id="name-outlet-213"/>
+                        <outlet property="AmountText" destination="204" id="name-outlet-204"/>
+                        <outlet property="ExcellentLabel" destination="203" id="name-outlet-203"/>
+                        <outlet property="PercentageLabel" destination="212" id="name-outlet-212"/>
+                        <outlet property="PoorLabel" destination="202" id="name-outlet-202"/>
+                        <outlet property="RestaurantImageView" destination="197" id="name-outlet-197"/>
+                        <outlet property="ServiceLabel" destination="200" id="name-outlet-200"/>
+                        <outlet property="ServiceSlider" destination="205" id="name-outlet-205"/>
+                        <outlet property="TaxAmountText" destination="211" id="name-outlet-211"/>
+                        <outlet property="TaxLabel" destination="206" id="name-outlet-206"/>
+                        <outlet property="TaxPercentageText" destination="210" id="name-outlet-210"/>
+                        <outlet property="TaxSwitch" destination="214" id="name-outlet-214"/>
+                        <outlet property="TipAmountText" destination="209" id="name-outlet-209"/>
+                        <outlet property="TipCalcLabel" destination="198" id="name-outlet-198"/>
+                        <outlet property="TipLabel" destination="201" id="name-outlet-201"/>
+                        <outlet property="TipPercentageText" destination="208" id="name-outlet-208"/>
+                        <outlet property="TotalLabel" destination="215" id="name-outlet-215"/>
+                        <outlet property="TotalText" destination="216" id="name-outlet-216"/>
+                        <outlet property="AmountLabel" destination="199" id="name-outlet-199"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="500" height="281"/>
+    </resources>
+</document>
