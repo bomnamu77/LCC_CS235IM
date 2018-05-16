@@ -62,17 +62,15 @@ namespace Lab5
 
             }
 
-            /*
+
             // Use a transition animation
             UIView.BeginAnimations("AboutHistory");
             UIView.SetAnimationDuration(0.5);
-            //UIView.SetAnimationTransition(UIViewAnimationTransition.FlipFromLeft, controller.View, true);
             UIView.SetAnimationTransition(UIViewAnimationTransition.FlipFromLeft, controller.View, true);
             UIView.CommitAnimations();
-            */
-            this.PresentViewController(controller, true, null);
+
             // Switch scenes
-            //this.NavigationController.PushViewController(controller, true);
+            this.NavigationController.PushViewController(controller, true);
         }
 
         partial void ResetButton_TouchUpInside(UIButton sender)

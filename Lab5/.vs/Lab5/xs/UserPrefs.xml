@@ -1,9 +1,6 @@
 ﻿<Properties StartupConfiguration="{1A989E48-615F-4696-A3DA-9FF9869FC4F7}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Lab5/ViewController.cs">
     <Files>
-      <File FileName="Lab5/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="Lab5/ViewController.cs" Line="75" Column="15" />
-      <File FileName="Lab5/TicTacToeGame.cs" Line="7" Column="82" />
       <File FileName="Lab5/Main.storyboard" />
       <File FileName="../../CS235IM-Demos/HelloGoodbyMultiScreen/HelloGoodbyeMultiScreen.Code/ViewController.cs" Line="37" Column="105" />
       <File FileName="../../CS235IM-Demos/HelloGoodbyMultiScreen/HelloGoodbyeMultiScreen.Code/GoodbyeViewController.cs" Line="9" Column="38" />
@@ -11,8 +8,9 @@
       <File FileName="Lab5/AboutViewController.designer.cs" Line="1" Column="1" />
       <File FileName="Lab5/ViewController.designer.cs" Line="1" Column="1" />
       <File FileName="Lab5/HistoryViewController.cs" Line="21" Column="31" />
-      <File FileName="Lab5/Main.cs" Line="12" Column="1" />
+      <File FileName="Lab5/Main.cs" Line="16" Column="1" />
       <File FileName="Lab5/HistoryViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="Lab5/ViewController.cs" Line="71" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
