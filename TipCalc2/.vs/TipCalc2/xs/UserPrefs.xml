@@ -6,7 +6,7 @@
     <Files>
       <File FileName="TipCalc2/AppDelegate.cs" Line="1" Column="1" />
       <File FileName="TipCalc2/ViewController.designer.cs" Line="1" Column="1" />
-      <File FileName="TipCalc2/ViewController.cs" Line="105" Column="13" />
+      <File FileName="TipCalc2/ViewController.cs" Line="105" Column="1" />
       <File FileName="TipCalc2/TipCalculation.cs" Line="2" Column="19" />
       <File FileName="TipCalc2/Main.storyboard" />
       <File FileName="TipCalc2/Main.cs" Line="12" Column="1" />
