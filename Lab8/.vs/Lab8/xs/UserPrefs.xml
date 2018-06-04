@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{70D2D580-F879-441F-B14C-9A6585877EE7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab8/Main.cs">
+    <Files>
+      <File FileName="Lab8/ViewController.cs" Line="122" Column="38" />
+      <File FileName="Lab8/TipCalculation.cs" Line="14" Column="49" />
+      <File FileName="Lab8/Main.cs" Line="16" Column="1" />
+      <File FileName="../../Beginning-iOS-Development-with-CSharp/Chapter 12/BridgeControl/FirstViewController.cs" Line="48" Column="31" />
+      <File FileName="../../Beginning-iOS-Development-with-CSharp/Chapter 12/BridgeControl/Constants.cs" Line="14" Column="62" />
+      <File FileName="Lab8/Constants.cs" Line="2" Column="15" />
+      <File FileName="../../../../Projects/TabbedApplication/TabbedApplication/ViewController.cs" Line="1" Column="1" />
+      <File FileName="../../Beginning-iOS-Development-with-CSharp/Chapter 12/BridgeControl/SecondViewController.cs" Line="55" Column="78" />
+      <File FileName="Lab8/ViewController.designer.cs" Line="33" Column="48" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Lab8 PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D749C2DB-B048-4C88-A35D-BFBDDE8EA492" automaticSigning="False" />
+</Properties>

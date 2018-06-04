@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Tip Percentage</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+			<key>Key</key>
+			<string>TipPercentage</string>
+			<key>DefaultValue</key>
+			<integer>10</integer>
+			<key>MinimumValue</key>
+			<integer>0</integer>
+			<key>MaximumValue</key>
+			<integer>20</integer>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Others</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Tax percentage</string>
+			<key>KeyboardType</key>
+			<string>NumberPad</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>TaxPercentage</string>
+			<key>DefaultValue</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Currency type</string>
+			<key>Titles</key>
+			<array>
+				<string>Dollars ($)</string>
+				<string>Pesos (₱)</string>
+				<string>Euros (€)</string>
+			</array>
+			<key>Value Image Filename</key>
+			<array>
+				<string>dollar</string>
+				<string>Peso</string>
+				<string>Euro</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>$</string>
+				<string>₱</string>
+				<string>€</string>
+			</array>
+			<key>Key</key>
+			<string>CurrencyType</string>
+			<key>DefaultValue</key>
+			<string>$</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Background Color</string>
+			<key>Titles</key>
+			<array>
+				<string>White</string>
+				<string>Green</string>
+				<string>Blue</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>White</string>
+				<string>Green</string>
+				<string>Blue</string>
+			</array>
+			<key>Key</key>
+			<string>BackgroundColor</string>
+			<key>DefaultValue</key>
+			<string>White</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

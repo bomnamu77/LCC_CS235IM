@@ -1,0 +1,12 @@
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/Lab7/Lab7/bin/iPhoneSimulator/Debug/Lab7.exe
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/Lab7/Lab7/bin/iPhoneSimulator/Debug/Lab7.pdb
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/Lab7/Lab7/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/ibtool/_BundleResourceWithLogicalName.items
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/Lab7/Lab7/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/actool/_PartialAppManifest.items
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/Lab7/Lab7/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/actool/_BundleResourceWithLogicalName.items
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/Lab7/Lab7/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_PartialAppManifest.items
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/Lab7/Lab7/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_BundleResourceWithLogicalName.items
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/Lab7/Lab7/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/optimized/
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/Lab7/Lab7/obj/iPhoneSimulator/Debug/Lab7.csprojResolveAssemblyReference.cache
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/Lab7/Lab7/obj/iPhoneSimulator/Debug/Lab7.csproj.CoreCompileInputs.cache
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/Lab7/Lab7/obj/iPhoneSimulator/Debug/Lab7.exe
+/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/Lab7/Lab7/obj/iPhoneSimulator/Debug/Lab7.pdb

@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{0542626A-286D-4B4A-AF8F-13E37AEEF8C6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Lab6/TicTacToeGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab6/TabController.cs">
     <Files>
       <File FileName="Lab6/Main.storyboard" />
       <File FileName="Lab6/ViewController.designer.cs" Line="1" Column="1" />
