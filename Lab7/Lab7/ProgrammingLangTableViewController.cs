@@ -30,11 +30,12 @@ namespace Lab7
                     var rowPath = TableView.IndexPathForSelectedRow;
                     var progLangInfo = programmingLangDataSource.GetProgrammingLangInfo(rowPath.Section, rowPath.Row);
 
-                    string detail = "• Chief Developer: " + progLangInfo.ChiefDevelopers + "\n";
+                    string detail = "• Chief Developer: " + progLangInfo.ChiefDevelopers + "\n\n";
                     detail += "• Predecessors: " + progLangInfo.Predecessors;
 
                     detailController.SetDetailText(detail);
-                    detailController.Title = progLangInfo.Name;
+                    detailController.SetTitle(progLangInfo.Name);
+
                 }
             }
         }

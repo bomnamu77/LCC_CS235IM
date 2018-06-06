@@ -18,11 +18,20 @@ namespace Lab7
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextView DetailTextView { get; set; }
 
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel TitleLabel { get; set; }
+
         void ReleaseDesignerOutlets ()
         {
             if (DetailTextView != null) {
                 DetailTextView.Dispose ();
                 DetailTextView = null;
+            }
+
+            if (TitleLabel != null) {
+                TitleLabel.Dispose ();
+                TitleLabel = null;
             }
         }
     }

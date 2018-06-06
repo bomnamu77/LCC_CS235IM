@@ -68,17 +68,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="832" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="Programming Language Info">
-                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="832" translatesAutoresizingMaskIntoConstraints="NO" text="Programming Language Info">
+                                <rect key="frame" x="20" y="182" width="374" height="233"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <constraints>
+                                    <constraint id="4407" firstItem="832" firstAttribute="height" constant="233"/>
+                                    <constraint id="4864" firstItem="832" firstAttribute="width" constant="374"/>
+                                </constraints>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3343" translatesAutoresizingMaskIntoConstraints="NO" layoutMarginsFollowReadableWidth="YES" insetsLayoutMarginsFromSafeArea="NO">
+                                <rect key="frame" x="0.0" y="129" width="414" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="3969" firstItem="3343" firstAttribute="width" constant="414"/>
+                                </constraints>
+                            </label>
                         </subviews>
+                        <constraints>
+                            <constraint id="3967" firstItem="3343" firstAttribute="centerX" secondItem="623" secondAttribute="centerX"/>
+                            <constraint id="3968" firstItem="623" firstAttribute="centerY" secondItem="3343" secondAttribute="centerY" constant="228.5"/>
+                            <constraint id="4406" firstItem="832" firstAttribute="top" secondItem="3343" secondAttribute="bottom" constant="32"/>
+                            <constraint id="4633" firstItem="832" firstAttribute="centerX" secondItem="623" secondAttribute="centerX"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="DetailTextView" destination="832" id="name-outlet-832"/>
+                        <outlet property="TitleLabel" destination="3343" id="name-outlet-3343"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="624" userLabel="First Responder" sceneMemberID="firstResponder"/>

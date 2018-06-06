@@ -6,7 +6,7 @@ namespace Lab7
 {
     public partial class DetailViewController : UIViewController
     {
-        string detailText;
+        string detailText, title;
         public DetailViewController (IntPtr handle) : base (handle)
         {
         }
@@ -15,10 +15,14 @@ namespace Lab7
         {
             detailText = text;
         }
-
+        public void SetTitle(string text)
+        {
+            title = text;
+        }
         public override void ViewWillAppear(bool animated)
         {
             DetailTextView.Text = detailText;
+            TitleLabel.Text = title;
 
             base.ViewWillAppear(animated);
         }
