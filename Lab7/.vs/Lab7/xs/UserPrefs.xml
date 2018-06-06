@@ -3,18 +3,21 @@
     <Files>
       <File FileName="Lab7/AppDelegate.cs" Line="1" Column="1" />
       <File FileName="Lab7/ProgrammingLangDataSource.cs" Line="183" Column="11" />
-      <File FileName="Lab7/ProgrammingLangTableViewController.cs" Line="23" Column="10" />
+      <File FileName="Lab7/ProgrammingLangTableViewController.cs" Line="35" Column="21" />
       <File FileName="Lab7/ProgrammingLangTableViewController.designer.cs" Line="1" Column="1" />
       <File FileName="../../../../Projects/WorkingWithTables/Part 2 - Populating a table with data/1 - BasicTable/TableSource.cs" Line="1" Column="1" />
       <File FileName="../../../../Projects/WorkingWithTables/Part 2 - Populating a table with data/1 - BasicTable/HomeScreen.cs" Line="1" Column="1" />
       <File FileName="Lab7/Main.storyboard" />
       <File FileName="Lab7/ViewController.cs" Line="1" Column="1" />
       <File FileName="Lab7/DetailViewController.cs" Line="26" Column="2" />
+      <File FileName="Lab7/Main.cs" Line="12" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/soyoungkim/Documents/GitHub/LCC_CS235IM/Lab7/Lab7/ProgrammingLangTableViewController.cs" relfile="Lab7/ProgrammingLangTableViewController.cs" line="36" column="45" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

@@ -20,7 +20,14 @@ namespace Lab8
         {
             // Override point for customization after application launch.
             // If not required for your application you can safely delete this method
+            // Set default settings for this app, but only the first time it's run
+            var defaultsDictionary = new NSMutableDictionary();
+            defaultsDictionary.SetValueForKey((NSNumber)15, (NSString)Constants.TIPPERCENTAGE_KEY);
+            defaultsDictionary.SetValueForKey((NSNumber)5, (NSString)Constants.TAXPERCENTAGE_KEY);
+            defaultsDictionary.SetValueForKey((NSString)"$", (NSString)Constants.CURRENCYTYPE_KEY);
+            defaultsDictionary.SetValueForKey((NSString)"White", (NSString)Constants.BACKGROUNDCOLOR_KEY);
 
+            NSUserDefaults.StandardUserDefaults.RegisterDefaults(defaultsDictionary);
             return true;
         }
 

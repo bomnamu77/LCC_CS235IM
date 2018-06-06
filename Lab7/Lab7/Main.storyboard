@@ -21,6 +21,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue id="2721" destination="622" kind="show" identifier="ProgLangDetailSeque"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -31,7 +34,6 @@
                     <navigationItem key="navigationItem" id="401" title="Programming Languages"/>
                     <connections>
                         <outlet property="ProgrammingLangTableView" destination="402" id="name-outlet-402"/>
-                        <segue id="2287" destination="622" kind="show" identifier="ProgLangDetailSeque"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="407" userLabel="First Responder" sceneMemberID="firstResponder"/>

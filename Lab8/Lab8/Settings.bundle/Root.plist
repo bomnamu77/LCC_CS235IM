@@ -16,7 +16,7 @@
 			<key>Key</key>
 			<string>TipPercentage</string>
 			<key>DefaultValue</key>
-			<integer>10</integer>
+			<integer>15</integer>
 			<key>MinimumValue</key>
 			<integer>0</integer>
 			<key>MaximumValue</key>
@@ -44,7 +44,7 @@
 			<key>Key</key>
 			<string>TaxPercentage</string>
 			<key>DefaultValue</key>
-			<string></string>
+			<string>5</string>
 		</dict>
 		<dict>
 			<key>Type</key>
