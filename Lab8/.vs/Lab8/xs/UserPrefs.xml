@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{70D2D580-F879-441F-B14C-9A6585877EE7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Lab8/Settings.bundle/Root.plist">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab8/Main.storyboard">
     <Files>
       <File FileName="Lab8/ViewController.cs" Line="116" Column="87" />
       <File FileName="Lab8/TipCalculation.cs" Line="14" Column="49" />
@@ -12,6 +12,7 @@
       <File FileName="Lab8/AppDelegate.cs" Line="32" Column="10" />
       <File FileName="../../Beginning-iOS-Development-with-CSharp/Chapter 12/BridgeControl/AppDelegate.cs" Line="31" Column="78" />
       <File FileName="Lab8/Settings.bundle/Root.plist" />
+      <File FileName="Lab8/Main.storyboard" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

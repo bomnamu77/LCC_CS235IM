@@ -5,7 +5,6 @@
       <File FileName="Lab6/ViewController.designer.cs" Line="1" Column="1" />
       <File FileName="Lab6/HistoryViewController.designer.cs" Line="1" Column="1" />
       <File FileName="Lab6/Main.cs" Line="12" Column="1" />
-      <File FileName="../../../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/11.10.1.178/src/Xamarin.iOS/UIKit/UIStoryboard.g.cs" Line="116" Column="1" />
       <File FileName="../../../LCC/CS235IM/Week6/TabbedAppDataXfer/TabbedAppDataXfer/MessageTabBarController.cs" Line="33" Column="4" />
       <File FileName="Lab6/ViewController.cs" Line="154" Column="34" />
       <File FileName="Lab6/TabController.cs" Line="15" Column="74" />
@@ -13,6 +12,17 @@
       <File FileName="Lab6/AboutViewController.cs" Line="18" Column="1" />
       <File FileName="Lab6/TicTacToeGame.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Lab6" expanded="True">
+            <Node name="Lab6" expanded="True">
+              <Node name="TabController.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -20,5 +30,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Lab6 PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8ADF7AFA-7C3F-48B0-A050-CC485BF71194" />
+  <MonoDevelop.Ide.ItemProperties.Lab6 PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D749C2DB-B048-4C88-A35D-BFBDDE8EA492" />
 </Properties>

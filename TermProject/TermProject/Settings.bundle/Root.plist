@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Group</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Name</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>Name</string>
+			<key>DefaultValue</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Background Color</string>
+			<key>Titles</key>
+			<array>
+				<string>White</string>
+				<string>LightGrey</string>
+				<string>LightBlue</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>White</string>
+				<string>LightGrey</string>
+				<string>LightBlue</string>
+			</array>
+			<key>Key</key>
+			<string>BackgroundColor</string>
+			<key>DefaultValue</key>
+			<string>White</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Font Color</string>
+			<key>Titles</key>
+			<array>
+				<string>Black</string>
+				<string>Blue</string>
+				<string>Purple</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>Black</string>
+				<string>Blue</string>
+				<string>Purple</string>
+			</array>
+			<key>Key</key>
+			<string>FontColor</string>
+			<key>DefaultValue</key>
+			<string>Black</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>
